@@ -5,7 +5,7 @@ Nasty, brute force way to FINALLY open explorer and vscode with correct context 
 ...you're gonna have some bad times when you edit linux files with windows tools, but what is life if not about freedom of choices! If you want a taste of this: make a new file from vscode in windows and save it in your linux home directory. This file will be invisible to linux. But hey, you're a poweruser now! You live for this stuff!
 
 #### Dependencies
-Sadly, this uses python 3 at the moment. You need to install it with `sudo apt install python3`. 
+Sadly, this uses python 3 at the moment. You need to install it with `sudo apt install python3`
 
 (This shouldn't be necessary in the future, as the things in this repo can (theoretically) be done purely with bash scripting. I have a `workinprogress.sh` file here for people to help me out with finishing it, but that file can be ignored for now otherwise.)
 
