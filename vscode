@@ -3,6 +3,11 @@ import os, sys
 
 folder = ""
 if len(sys.argv) > 1:
+    exists = os.path.isfile(sys.argv[1]) | os.path.isdir(sys.argv[1])
+    if not exists:
+        # we need to make our files in linux 
+        # -- if windows makes them, they'll be invisible to WSL
+        os.system("touch "+sys.argv[1])
     folder += "\\" + sys.argv[1]
 
 wslenv = os.environ['WSLENV']
