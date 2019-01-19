@@ -13,5 +13,4 @@ if len(sys.argv) > 1:
 wslenv = os.environ['WSLENV']
 pwd = os.environ['PWD']
 pwd = pwd.replace("/","\\")
-print("code \""+os.environ['WSLENV']+pwd+folder+"\"")
 os.system("code \""+os.environ['WSLENV']+pwd+folder+"\"")
