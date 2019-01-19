@@ -1,0 +1,5 @@
+import os
+wslenv = os.environ['WSLENV']
+pwd = os.environ['PWD']
+pwd = pwd.replace("/","\\")
+os.system("explorer.exe \""+os.environ['WSLENV']+pwd+"\"" )
