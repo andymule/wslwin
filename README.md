@@ -1,5 +1,5 @@
 # wslwin
-Nasty, brute force way to FINALLY open explorer and vscode with correct context from WSL. Hooray?
+Nasty, brute force way to FINALLY open `explorer` and `vscode` with correct context from WSL. Hooray?
 
 #### Microsoft ain't kiddin' (warnings)
 ...you're gonna have some bad times when you mess with linux files using windows tools, but what is linux without freedom of choices?! If you want a taste of this badness: make a new file using vscode or explorer inside your linux home directory. This file will be invisible to linux. But hey, you're a poweruser now! You live for this stuff! **But seriously, don't create/delete/copy-into files from vscode or explorer. I've had no issues with editing/browsing/copying-out-of.**
