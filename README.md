@@ -7,7 +7,7 @@ Nasty, brute force way to FINALLY open `explorer` and `vscode` with correct cont
 ### So what CAN I do with this??? 
 I personally have a kivy/python project that is already up and running, and it needs to build android binaries out of linux. I keep all my source in WSL and open vscode and edit from there. Works beautifully. I don't need multiple sym links or aliases, and I don't have to set anything else up to edit code from my WSL using vscode. 
 
-Or say you have files you want to copy from linux to windows using explorer and a GUI, that's a reasonable thing to do now. Or just clicking and browsing file structure. These are all things that I find incredibly annoying that these scripts help to mitigate. 
+**Or say you have files you want to copy from linux to windows using explorer and a GUI**, that's a reasonable thing to do with my tools. Or even just clicking and browsing file structure. These are all things that I find incredibly annoying that these scripts help to mitigate. 
 
 #### Dependencies
 Sadly, this uses python 3 at the moment. You need to install it with `sudo apt install python3`
