@@ -5,7 +5,7 @@ Nasty, brute force way to FINALLY open explorer and vscode with correct context 
 ...you're gonna have some bad times when you mess with linux files using windows tools, but what is linux without freedom of choices?! If you want a taste of this badness: make a new file using vscode or explorer inside your linux home directory. This file will be invisible to linux. But hey, you're a poweruser now! You live for this stuff! **But seriously, don't create/delete/copy-into files from vscode or explorer. I've had no issues with editing/browsing/copying-out-of.**
 
 ### So what CAN I do with this??? 
-I personally have a kivy/python project that is already up and running, and it needs to build android binaries out of linux. I keep all my source in WSL and open vscode and edit from there. Works beautifully. I don't need sym links, and I don't have to set anything else up to edit code from my WSL using vscode. 
+I personally have a kivy/python project that is already up and running, and it needs to build android binaries out of linux. I keep all my source in WSL and open vscode and edit from there. Works beautifully. I don't need multiple sym links or aliases, and I don't have to set anything else up to edit code from my WSL using vscode. 
 
 Or say you have files you want to copy from linux to windows using explorer and a GUI, that's a reasonable thing to do now. Or just clicking and browsing file structure. These are all things that I find incredibly annoying that these scripts help to mitigate. 
 
