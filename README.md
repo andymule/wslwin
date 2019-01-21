@@ -2,7 +2,7 @@
 Nasty, brute force way to FINALLY open explorer and vscode with correct context from WSL. Hooray?
 
 #### Microsoft ain't kiddin'
-...you're gonna have some bad times when you edit linux files with windows tools, but what is life if not about freedom of choices! If you want a taste of this: make a new file from vscode in windows and save it in your linux home directory. This file will be invisible to linux. But hey, you're a poweruser now! You live for this stuff!
+...you're gonna have some bad times when you mess with linux files using windows tools, but what is linux without freedom of choices?! If you want a taste of this badness: make a new file using vscode or explorer inside your linux home directory. This file will be invisible to linux. But hey, you're a poweruser now! You live for this stuff! **But seriously, don't create/delete/copy-into files from vscode or explorer. I've had no issues with editing/browsing/copying-out-of.**
 
 #### Dependencies
 Sadly, this uses python 3 at the moment. You need to install it with `sudo apt install python3`
@@ -20,7 +20,7 @@ Browse to this location in windows (using the gross method you're exactly replac
 
 `C:\Users\<myname>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\<myname>\wslwin\`
 
-and right-click `setWSLENV.ps1` and `Run With Powershell`
+and right-click `setWSLENV.ps1` and `Run With Powershell` (if you don't see this context, it's because you've changed default programs for opening ps1 files. you'll need to shift+right-click>"open powershell window here" and type ./setWSLENV.ps1)
 
 If you're having trouble running this powershell file, you probably need to first set your computer to run powershell files by opening a powershell as admin and running `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned` as defined by Microsoft [here](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6)
 
