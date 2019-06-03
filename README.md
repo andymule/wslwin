@@ -1,3 +1,6 @@
+# UPDATE JUNE 2019
+# Windows officially has some way of dealing with this now either released or to be released soon. Don't use this repo anymore, use the official way instead.
+
 # wslwin
 Nasty, brute force way to FINALLY open `explorer` and `vscode` with correct context from WSL. Hooray?
 
